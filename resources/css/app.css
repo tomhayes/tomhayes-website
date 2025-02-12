@@ -1,7 +1,10 @@
+@import url('https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind variants;
 
-[x-cloak] {
-    display: none;
+body {
+    font-family: 'Figtree', sans-serif;
 }
